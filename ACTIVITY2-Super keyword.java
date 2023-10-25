@@ -21,14 +21,14 @@ class Car extends Vehicle {
     private int numberOfDoors;
 
     public Car(String make, int year, int numberOfDoors) {
-        super(make, year); // Call the base class constructor using super
+        super(make, year);
         this.numberOfDoors = numberOfDoors;
         System.out.println("Car constructor called.");
     }
 
     @Override
     public void start() {
-        super.start(); // Call the base class method using super
+        super.start(); 
         System.out.println("Car is starting.");
     }
 }
